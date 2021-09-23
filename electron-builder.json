@@ -5,7 +5,8 @@
   ],
   "extraResources": [
     "build/icon.ico",
-    "servers.json"
+    "servers.json",
+    "config.json"
   ],
   "appId": "chat.rox",
   "mac": {
@@ -155,6 +156,7 @@
       "provider": "github",
       "owner": "Rodeo-Dental",
       "repo": "Rocket.Chat.Electron",
+      "token": "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",
       "vPrefixedTagName": false
     }
   ]

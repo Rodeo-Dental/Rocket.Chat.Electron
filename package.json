@@ -3,17 +3,15 @@
   "workspaces": [
     "workspaces/*"
   ],
-  "name": "rocketchat",
-  "description": "Official OSX, Windows, and Linux Desktop Clients for Rocket.Chat",
-  "version": "3.5.6",
-  "author": "Rocket.Chat Support <support@rocket.chat>",
-  "copyright": "© 2016-2021, Rocket.Chat",
-  "homepage": "https://rocket.chat",
+  "name": "ROX Chat",
+  "description": "Official OSX, Windows, and Linux Desktop Clients for ROX Chat",
+  "version": "0.3.5.6",
+  "author": "ROXLABS Support <creativetech@rodeodental.com>",
+  "copyright": "© 2021, Irving Valley Management Services LLC",
+  "homepage": "https://mix.rodoedental.com/rox-chat",
   "license": "MIT",
   "keywords": [
-    "rocketchat",
-    "desktop",
-    "electron"
+    "ROX Chat"
   ],
   "repository": {
     "type": "git",
@@ -127,5 +125,5 @@
     "node": ">=12.8.x",
     "yarn": ">=1.22.x"
   },
-  "productName": "Rocket.Chat"
+  "productName": "ROX Chat"
 }

@@ -25,7 +25,7 @@ inputs:
     required: true
   mac_asc_provider:
     description: 'The membership account associated with the Apple Developer account'
-    required: true
+    required: false
   win_csc_link:
     description: 'The base64-encoded data of certificates (*.p12) for code signing for Windows'
     required: false
@@ -34,7 +34,7 @@ inputs:
     required: false
   github_token:
     description: 'The GitHub token to publish releases'
-    required: true
+    required: false
   snapcraft_token:
     description: 'The Snapcraft token to publish releases'
     required: false

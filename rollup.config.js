@@ -12,7 +12,8 @@ import copy from 'rollup-plugin-copy';
 
 import appManifest from './package.json';
 
-const NODE_ENV = process.env.NODE_ENV || 'development';
+// const NODE_ENV = process.env.NODE_ENV || 'development';
+const NODE_ENV = process.env.NODE_ENV || 'production';
 const canRun =
   process.env.ROLLUP_WATCH === 'true' && process.env.NO_RUN !== 'true';
 

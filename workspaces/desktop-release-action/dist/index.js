@@ -16477,7 +16477,7 @@ const uploadSnap = (snapFilePath, level) => linux_awaiter(void 0, void 0, void 0
 
 
 const disableSpotlightIndexing = () => core.group('Disable Spotlight indexing (to avoid errors of DMG generation)', () => run(`sudo mdutil -a -i off`));
-const packOnMacOS = () => runElectronBuilder(`--mac`, {
+const packOnMacOS = () => runElectronBuilder(`--mac --universal`, {
     CSC_LINK: core.getInput('mac_csc_link'),
     CSC_KEY_PASSWORD: core.getInput('mac_csc_key_password'),
     IS_PULL_REQUEST: 'false',
