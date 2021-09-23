@@ -28,16 +28,16 @@ inputs:
     required: true
   win_csc_link:
     description: 'The base64-encoded data of certificates (*.p12) for code signing for Windows'
-    required: true
+    required: false
   win_csc_key_password:
     description: 'The password to decrypt the certificates for code signing for Windows'
-    required: true
+    required: false
   github_token:
     description: 'The GitHub token to publish releases'
     required: true
   snapcraft_token:
     description: 'The Snapcraft token to publish releases'
-    required: true
+    required: false
 
 runs:
   using: 'node12'

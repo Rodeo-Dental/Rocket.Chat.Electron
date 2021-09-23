@@ -10,7 +10,6 @@ import { createSelector } from 'reselect';
 import { RootAction } from '../../../store/actions';
 import { RootState } from '../../../store/rootReducer';
 import {
-  SIDE_BAR_ADD_NEW_SERVER_CLICKED,
   SIDE_BAR_DOWNLOADS_BUTTON_CLICKED,
   SIDE_BAR_SETTINGS_BUTTON_CLICKED,
 } from '../../actions';
@@ -19,7 +18,6 @@ import {
   Wrapper,
   Content,
   ServerList,
-  AddServerButton,
   SidebarActionButton,
   Button,
   BottomButtons,
@@ -61,9 +59,6 @@ export const SideBar: FC = () => {
     handleDrop,
   } = useSorting(servers);
   const dispatch = useDispatch<Dispatch<RootAction>>();
-  const handleAddServerButtonClicked = (): void => {
-    dispatch({ type: SIDE_BAR_ADD_NEW_SERVER_CLICKED });
-  };
   const handelDownloadsButtonClicked = (): void => {
     dispatch({ type: SIDE_BAR_DOWNLOADS_BUTTON_CLICKED });
   };
@@ -106,14 +101,6 @@ export const SideBar: FC = () => {
             />
           ))}
         </ServerList>
-        <AddServerButton>
-          <SidebarActionButton
-            tooltip={t('sidebar.addNewServer')}
-            onClick={handleAddServerButtonClicked}
-          >
-            +
-          </SidebarActionButton>
-        </AddServerButton>
         <BottomButtons>
           <Button>
             <SidebarActionButton
