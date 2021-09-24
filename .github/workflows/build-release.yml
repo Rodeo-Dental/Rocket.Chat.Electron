@@ -51,5 +51,5 @@ jobs:
           mac_asc_provider: '5J497Z83T9'
           win_csc_link: ${{ secrets.WIN_CSC_LINK }}
           win_csc_key_password: ${{ secrets.WIN_CSC_KEY_PASSWORD }}
-          github_token: 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
+          github_token: ${{ secrets.GH_TOKEN }}
           snapcraft_token: ${{ secrets.SNAP_TOKEN }}
