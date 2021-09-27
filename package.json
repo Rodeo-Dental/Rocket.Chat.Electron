@@ -4,7 +4,7 @@
     "workspaces/*"
   ],
   "name": "roxchat",
-  "description": "Official OSX, Windows, and Linux Desktop Clients for ROX Chat",
+  "description": "Official OSX, Windows, and Linux Desktop Clients for ROXChat",
   "version": "3.5.6-alpha.1",
   "author": "ROXLABS Support <creativetech@rodeodental.com>",
   "copyright": "© 2021, Irving Valley Management Services LLC",
