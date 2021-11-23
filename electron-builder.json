@@ -62,7 +62,7 @@
     "target": [
       "msi"
     ],
-    "icon": "build/icon.ico",
+    "icon": "build/icon.png",
     "publisherName": "Sectigo RSA Code Signing CA",
     "legalTrademarks": "",
     "verifyUpdateCodeSignature": false,
