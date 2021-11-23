@@ -65,9 +65,9 @@
     "icon": "build/icon.png",
     "publisherName": "Sectigo RSA Code Signing CA",
     "legalTrademarks": "",
-    "verifyUpdateCodeSignature": false,
+    "verifyUpdateCodeSignature": true,
     "requestedExecutionLevel": "asInvoker",
-    "signAndEditExecutable": false,
+    "signAndEditExecutable": true,
     "signDlls": false
   },
   "nsis": {
